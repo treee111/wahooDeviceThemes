@@ -437,9 +437,6 @@
     <!-- endregion railway -->
     <!-- region place captions -->
     <m k="place">
-        <m v="locality" zoom-min="15">
-            <caption fill="#000000" k="name" priority="5" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-        </m>
         <m v="suburb" zoom-max="13">
             <caption style="bold_italic" fill="#000000" k="name" priority="4" size="15" stroke="#FFFFFF" stroke-width="3.0"/>
         </m>
