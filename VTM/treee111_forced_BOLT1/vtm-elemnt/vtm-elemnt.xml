@@ -358,8 +358,8 @@
                 <m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
                 </m>
-                <m e="way" k="highway" v="trunk" zoom-max="12" zoom-min="11">
-                    <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="3"/>
+                <m e="way" k="highway" v="primary_link|trunk_link|primary|trunk" zoom-min="9" zoom-max="11">
+                    <line cat="bolt" cap="butt" stroke="#000000" width="1.5"/>
                 </m>
                 <m e="way" k="highway" v="motorway_link" zoom-min="12">
                     <line cat="bolt" outline="bridge" cap="butt" stroke="#FFFFFF" width="2.5"/>
