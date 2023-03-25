@@ -194,29 +194,37 @@
                 <m e="way" k="highway" v="construction" zoom-min="10">
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="2" dasharray="15,5" cap="butt"/>
                 </m>
-                <m e="way" k="highway" v="residential|living_street|road|unclassified" zoom-min="14">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.5"/>
+                <m e="way" k="highway" v="residential|living_street|road|unclassified">
+                    <m zoom-min="14">
+                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.5"/>
+                    </m>
+                    <m zoom-max="13" zoom-min="10">
+                        <line cat="bolt" stroke="#000000" width="0.5"/>
+                    </m>
                 </m>
-                <m e="way" k="highway" v="residential|living_street|road|unclassified" zoom-min="10" zoom-max="13">
-                    <line cat="bolt" stroke="#000000" width="0.5"/>
+                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary">
+                    <m zoom-min="13">
+                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="2.5"/>
+                    </m>
+                    <m zoom-max="12" zoom-min="10">
+                        <line cat="bolt" stroke="#000000" width="1"/>
+                    </m>
                 </m>
-                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="13">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="2.5"/>
+                <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk">
+                    <m zoom-min="12">
+                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
+                    </m>
+                    <m zoom-max="11" zoom-min="8">
+                        <line cat="bolt" stroke="#000000" width="1.5"/>
+                    </m>
                 </m>
-                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="10" zoom-max="12">
-                    <line cat="bolt" stroke="#000000" width="1"/>
-                </m>
-                <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="12">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
-                </m>
-                <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9" zoom-max="11">
-                    <line cat="bolt" stroke="#000000" width="1.5"/>
-                </m>
-                <m e="way" k="highway" v="motorway" zoom-min="12">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="4"/>
-                </m>
-                <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-                    <line cat="bolt" stroke="#000000" width="2.0"/>
+                <m e="way" k="highway" v="motorway">
+                    <m zoom-min="12">
+                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="4"/>
+                    </m>
+                    <m zoom-max="11" zoom-min="8">
+                        <line cat="bolt" stroke="#000000" width="2.0"/>
+                    </m>
                 </m>
                 <!-- ferry -->
                 <m k="route">
