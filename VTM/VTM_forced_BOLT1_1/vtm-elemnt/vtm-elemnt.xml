@@ -47,9 +47,9 @@
     </m>
     <m e="way" k="natural|landcover|landuse" v="wood|trees|scrub|forest">
     </m>
-    <m e="way" k="leisure" v="park|nature_reserve">
+    <!-- <m e="way" k="leisure" v="park|nature_reserve">
         <caption fill="#000000" k="name" priority="5" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-    </m>
+    </m> -->
     <m e="way" k="natural" v="water">
         <area cat="bolt" src="patterns/gray.png"/>
     </m>
