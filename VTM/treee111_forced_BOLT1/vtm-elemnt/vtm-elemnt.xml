@@ -498,15 +498,15 @@
     </m>
 
     <m k="railway" v="station|stop" zoom-min="13">
-        <symbol src="icons/train_station.svg" symbol-percent="125"/>
+        <symbol src="icons/train_station.svg" symbol-percent="150"/>
     </m>
 
     <m zoom-min="11">
         <m k="amenity" v="shelter">
-            <symbol src="icons/shelter.svg" symbol-percent="125"/>
+            <symbol src="icons/shelter.svg" symbol-percent="150"/>
         </m>
         <m k="tourism" v="alpine_hut">
-            <symbol src="icons/alpinehut.svg" symbol-percent="125"/>
+            <symbol src="icons/alpinehut.svg" symbol-percent="150"/>
         </m>
     </m>
     <!-- end POIs -->
