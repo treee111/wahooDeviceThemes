@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" map-background="#FFFFFF" version="1" xmlns="http://opensciencemap.org/rendertheme" xsi:schemaLocation="http://opensciencemap.org/rendertheme https://raw.githubusercontent.com/mapsforge/vtm/master/resources/rendertheme.xsd">
+<rendertheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" map-background="#FFFFFF" version="1"
+    xmlns="http://opensciencemap.org/rendertheme" xsi:schemaLocation="http://opensciencemap.org/rendertheme https://raw.githubusercontent.com/mapsforge/vtm/master/resources/rendertheme.xsd">
     <stylemenu id="stylemenu" defaultvalue="BOLT_2" defaultlang="en">
         <layer id="BOLT_2">
             <name lang="en" value="Bolt"/>
@@ -56,8 +57,8 @@
     <m e="way" k="waterway" v="river|canal">
         <line cat="bolt" fix="true" width="1" dasharray="2,2"/>
         <pathText display="always" cat="bolt2" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="4" size="16" stroke="#FFFFFF" stroke-width="3.0" zoom-min="14" />
-   </m>
-   <m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
+    </m>
+    <m e="way" k="waterway" v="river|riverbank|canal" closed="yes">
         <area cat="bolt" src="patterns/gray.png"/>
     </m>
     <m e="way" k="waterway" v="stream" zoom-min="14">
@@ -229,11 +230,11 @@
                 <!-- ferry -->
                 <m k="route">
                     <m v="ferry">
-      	                <m zoom-min="11">
-         	                <line stroke="#000000" width="0.6" dasharray="15,5" cap="butt" />
+                        <m zoom-min="11">
+                            <line stroke="#000000" width="0.6" dasharray="15,5" cap="butt" />
                         </m>
                         <m zoom-min="15">
-         	                <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15" />
+                            <pathText display="always" cat="bolt" fill="#000000" k="name" font-family="sans_serif" font-style="bold" priority="2" size="10" stroke="#FFFFFF" stroke-width="2.0" zoom-min="15" />
                         </m>
                     </m>
                 </m>
@@ -470,176 +471,35 @@
         </m>
     </m>
     <!-- endregion place -->
+    <!-- POIs -->
     <m zoom-min="14">
         <m k="amenity">
-            <m v="atm">
-                <symbol src="icons/symbols/money/atm2.svg" symbol-percent="150"/>
+            <m v="fuel">
+                <symbol src="icons/fuel.svg" symbol-percent="150"/>
             </m>
-            <m v="bank">
-                <symbol src="icons/symbols/money/bank.svg" symbol-percent="150"/>
-            </m>
-            <m v="bar">
-                <symbol src="icons/symbols/food/bar.svg" symbol-percent="150"/>
-            </m>
-            <m v="bench">
-                <symbol src="icons/symbols/amenity/bench.svg" symbol-percent="150"/>
-            </m>
-            <m v="bicycle_rental">
-                <symbol src="icons/symbols/transport/rental_bicycle.svg" symbol-percent="150"/>
-            </m>
-            <m v="bus_station">
-                <symbol src="icons/symbols/transport/bus_station.svg" symbol-percent="150"/>
-            </m>
-            <m v="cafe">
-                <symbol src="icons/symbols/food/cafe.svg" symbol-percent="150"/>
+            <m v="cafe" zoom-min="15">
+                <symbol src="icons/cafe.svg" symbol-percent="150"/>
             </m>
             <m v="drinking_water">
-                <symbol src="icons/symbols/food/drinkingtap.svg" symbol-percent="150"/>
-            </m>
-            <m v="fast_food">
-                <symbol src="icons/symbols/food/fastfood.svg" symbol-percent="150"/>
-            </m>
-            <m v="fuel">
-                <symbol src="icons/symbols/transport/fuel.svg" symbol-percent="150"/>
-            </m>
-            <m v="hospital">
-                <symbol src="icons/symbols/health/hospital.svg" symbol-percent="150"/>
-            </m>
-            <m v="pharmacy">
-                <symbol src="icons/symbols/health/pharmacy.svg" symbol-percent="150"/>
-            </m>
-            <m v="police">
-                <symbol src="icons/symbols/amenity/police.svg" symbol-percent="150"/>
-            </m>
-            <m v="pub">
-                <symbol src="icons/symbols/food/pub.svg" symbol-percent="150"/>
-            </m>
-            <m v="restaurant">
-                <symbol src="icons/symbols/food/restaurant.svg" symbol-percent="150"/>
-            </m>
-            <m v="shelter">
-                <symbol src="icons/symbols/accommodation/shelter.svg" symbol-percent="150"/>
-            </m>
-            <m v="telephone">
-                <symbol src="icons/symbols/amenity/telephone.svg" symbol-percent="150"/>
-            </m>
-            <m v="toilets">
-                <symbol src="icons/symbols/amenity/toilets.svg" symbol-percent="150"/>
-            </m>
-        </m>
-        <m k="building">
-            <m v="cathedral">
-                <symbol src="icons/symbols/place_of_worship/christian-cross.svg" symbol-percent="70"/>
-                <area cat="bolt" src="patterns/gray.png"/>
-            </m>
-            <m v="church">
-                <symbol src="icons/symbols/place_of_worship/christian-cross.svg" symbol-percent="70"/>
-                <area cat="bolt" src="patterns/gray.png"/>
-            </m>
-        </m>
-        <m k="emercency">
-            <m v="phone">
-                <symbol src="icons/symbols/transport/emergency_phone.svg" symbol-percent="150"/>
+                <symbol src="icons/drinking_water.svg" symbol-percent="150"/>
             </m>
         </m>
         <m k="shop">
             <m v="bakery">
-                <symbol src="icons/symbols/shopping/bakery.svg" symbol-percent="150"/>
+                <symbol src="icons/bakery.svg" symbol-percent="150"/>
             </m>
             <m v="bicycle">
-                <symbol src="icons/symbols/shopping/bicycle.svg" symbol-percent="150"/>
-            </m>
-            <m v="laundry">
-                <symbol src="icons/symbols/shopping/laundrette.svg" symbol-percent="150"/>
-            </m>
-            <m v="mall">
-                <symbol src="icons/symbols/shopping/supermarket.svg" symbol-percent="150"/>
+                <symbol src="icons/shop_bicycle.svg" symbol-percent="150"/>
             </m>
             <m v="supermarket">
-                <symbol src="icons/symbols/shopping/supermarket.svg" symbol-percent="150"/>
-            </m>
-        </m>
-        <m k="tourism">
-            <m v="alpine_hut">
-                <symbol src="icons/symbols/accommodation/alpinehut.svg" symbol-percent="150"/>
-            </m>
-            <m v="attraction">
-                <symbol src="icons/symbols/tourist/attraction.svg" symbol-percent="150"/>
-            </m>
-            <m v="hostel">
-                <symbol src="icons/symbols/accommodation/hostel.svg" symbol-percent="150"/>
-            </m>
-            <m v="hotel">
-                <symbol src="icons/symbols/accommodation/hotel2.svg" symbol-percent="150"/>
-            </m>
-            <m v="information">
-                <symbol src="icons/symbols/tourist/information.svg" symbol-percent="150"/>
-            </m>
-            <m v="museum">
-                <symbol src="icons/symbols/tourist/museum.svg" symbol-percent="150"/>
-                <caption fill="#000000" k="name" priority="5" position="below" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-            </m>
-            <m v="viewpoint">
-                <symbol src="icons/symbols/tourist/view_point.svg" symbol-percent="150"/>
-            </m>
-            <m v="zoo">
-                <symbol src="icons/symbols/tourist/zoo.svg" symbol-percent="150"/>
-                <caption fill="#000000" k="name" priority="5" position="below" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-            </m>
-        </m>
-        <m k="route">
-            <m v="ferry">
-                <symbol src="icons/symbols/transport/port.svg" symbol-percent="150"/>
-            </m>
-        </m>
-        <m k="historic">
-            <m v="ruins">
-                <symbol src="icons/symbols/tourist/ruin.svg" symbol-percent="150"/>
-                <caption fill="#000000" k="name" priority="5" position="below" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-            </m>
-            <m v="castle">
-                <symbol src="icons/symbols/tourist/castle2.svg" symbol-percent="150"/>
-                <caption fill="#000000" k="name" priority="5" position="below" size="14" stroke="#FFFFFF" stroke-width="3.0"/>
-            </m>
-            <m v="memorial">
-                <symbol src="icons/symbols/tourist/memorial.svg" symbol-percent="150"/>
-            </m>
-            <m v="monument">
-                <symbol src="icons/symbols/tourist/monument.svg" symbol-percent="150"/>
-            </m>
-        </m>
-        <m k="natural">
-            <m v="peak|volcano">
-                <symbol src="icons/symbols/poi/peak.svg" symbol-percent="150"/>
-                <caption k="ele" font-style="bold" position="below" font-size="10" fill="#000000"/>
-                <caption k="name" font-style="bold" position="above" font-size="10" fill="#000000"/>
-            </m>
-            <m v="spring">
-                <symbol src="icons/symbols/amenity/fountain2.svg" symbol-percent="150"/>
-            </m>
-        </m>
-        <m k="aeroway">
-            <m v="aerodrome">
-                <symbol src="icons/symbols/transport/aerodrome.svg" symbol-percent="150"/>
-            </m>
-            <m v="airport">
-                <symbol src="icons/symbols/transport/airport.svg" symbol-percent="150"/>
-            </m>
-            <m v="gate">
-                <symbol src="icons/symbols/transport/airport_gate.svg" symbol-percent="150"/>
-            </m>
-            <m v="helipad">
-                <symbol src="icons/symbols/transport/helicopter_pad.svg" symbol-percent="150"/>
+                <symbol src="icons/shop_bicycle.svg" symbol-percent="150"/>
             </m>
         </m>
     </m>
-    <m k="railway" v="station|halt|stop" zoom-min="13">
-        <symbol src="icons/symbols/transport/train_station.svg" symbol-percent="130"/>
+
+    <m k="railway" v="station|stop" zoom-min="13">
+        <symbol src="icons/train_station.svg" symbol-percent="125"/>
     </m>
-    <m k="station" v="light_rail" zoom-min="13">
-        <symbol src="icons/symbols/transport/train_station2.svg" symbol-percent="130"/>
-    </m>
-    <m k="station" v="subway" zoom-min="13">
-        <symbol src="icons/symbols/transport/subway.svg" symbol-percent="130"/>
-    </m>
+    <!-- end POIs -->
+
 </rendertheme>
