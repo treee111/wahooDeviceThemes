@@ -435,16 +435,16 @@
     <!-- endregion railway -->
     <!-- region place captions -->
     <m k="place">
-        <m v="suburb" zoom-max="13">
+        <m v="suburb" zoom-max="14">
             <caption style="bold_italic" fill="#000000" k="name" priority="4" size="15" stroke="#FFFFFF" stroke-width="3.0"/>
         </m>
-        <m v="village" zoom-max="13">
+        <m v="village" zoom-max="14">
             <caption style="bold" fill="#000000" k="name" priority="3" size="17" stroke="#FFFFFF" stroke-width="4.0"/>
         </m>
         <m v="island" zoom-min="10">
             <caption style="bold" fill="#000000" k="name" priority="1" size="20" stroke="#FFFFFF" stroke-width="4.0"/>
         </m>
-        <m v="town" zoom-max="13">
+        <m v="town" zoom-max="14">
             <caption style="bold" fill="#000000" k="name" priority="2" size="19" stroke="#FFFFFF" stroke-width="4.0"/>
         </m>
         <m v="city">
