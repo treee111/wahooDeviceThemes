@@ -16,16 +16,16 @@
     <!-- Cycle Trails (like MTB) -->
     <style-line id="bolt-trail" cat="bolt" stroke="#000000" width="1.0"/>
     <!-- Paved Tracks -->
-    <style-line id="bolt-track-paved" cat="bolt" stroke="#000000" width="1.0"/>
+    <style-line id="bolt-track-paved" use="bolt-trail"/>
     <style-line id="bolt-track-paved-cycle" use="bolt-track-paved"/>
     <!-- Non-paved tracks -->
-    <style-line id="bolt-track-raw" cat="bolt" stroke="#000000" width="1.0"/>
+    <style-line id="bolt-track-raw" use="bolt-trail"/>
     <style-line id="bolt-track-raw-cycle" use="bolt-track-raw"/>
     <!-- Tracks that don't have other info -->
-    <style-line id="bolt-track-other" cat="bolt" stroke="#000000" width="1.0" dasharray="10,10"/>
+    <style-line id="bolt-track-other" use="bolt-trail" dasharray="10,10"/>
     <style-line id="bolt-track-other-cycle" use="bolt-track-other"/>
     <!-- Paved Cycleways-->
-    <style-line id="bolt-cycle" cat="bolt" stroke="#000000" width="1.0"/>
+    <style-line id="bolt-cycle" use="bolt-trail"/>
     <!-- Elevation / contour lines-->
     <style-line id="bolt-elevation-med-maj-z12" cat="bolt" stroke="#000000" width="1.1"/>
     <style-line id="bolt-elevation-med-maj-z13" cat="bolt" stroke="#000000" width="0.95"/>
