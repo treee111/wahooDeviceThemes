@@ -197,10 +197,10 @@
                 </m>
                 <m e="way" k="highway" v="residential|living_street|road|unclassified">
                     <m zoom-min="14">
-                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.5"/>
+                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.0"/>
                     </m>
                     <m zoom-max="13" zoom-min="10">
-                        <line cat="bolt" stroke="#000000" width="0.5"/>
+                        <line cat="bolt" stroke="#000000" width="0.8"/>
                     </m>
                 </m>
                 <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary">
