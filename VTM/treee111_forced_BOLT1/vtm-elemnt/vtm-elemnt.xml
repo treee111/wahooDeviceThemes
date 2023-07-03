@@ -267,7 +267,7 @@
                         <line use="bolt-footpath"/>
                     </m>
                 </m>
-                <m e="way" k="highway" v="track|byway" zoom-min="13" select="first">
+                <m e="way" k="highway" v="track|byway" zoom-min="12" select="first">
                     <m k="bicycle" v="bic_yes|bic_designated">
                         <!-- specifically for cycle -->
                         <m k="surface" v="bic_paved">
