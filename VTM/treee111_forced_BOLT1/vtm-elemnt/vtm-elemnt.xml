@@ -14,7 +14,7 @@
     <!-- Steps -->
     <style-line id="bolt-steps" cat="bolt" stroke="#000000" width="0.5" dasharray="9,9" cap="butt"/>
     <!-- Cycle Trails (like MTB) -->
-    <style-line id="bolt-trail" cat="bolt" stroke="#000000" width="0.8"/>
+    <style-line id="bolt-trail" cat="bolt" stroke="#000000" width="1.0"/>
     <!-- Paved Tracks -->
     <style-line id="bolt-track-paved" use="bolt-trail"/>
     <style-line id="bolt-track-paved-cycle" use="bolt-track-paved"/>
