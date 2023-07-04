@@ -1,0 +1,12 @@
+# in all folders
+**/*.DS_Store
+
+# build artefactsadd
+
+# IDE
+
+# top level
+
+# mac/unix
+
+#windows
