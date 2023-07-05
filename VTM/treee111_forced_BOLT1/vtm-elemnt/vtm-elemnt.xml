@@ -210,10 +210,10 @@
                     </m>
                 </m>
                 <m e="way" k="highway" v="motorway|primary_link|trunk_link|motorway_link|primary|trunk">
-                    <m zoom-min="12">
-                        <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
+                    <m zoom-min="10">
+                        <line cat="bolt" outline="highway-bold" stroke="#FFFFFF" width="3.5"/>
                     </m>
-                    <m zoom-max="11" zoom-min="8">
+                    <m zoom-max="9" zoom-min="8">
                         <line cat="bolt" stroke="#000000" width="1.5"/>
                     </m>
                 </m>
