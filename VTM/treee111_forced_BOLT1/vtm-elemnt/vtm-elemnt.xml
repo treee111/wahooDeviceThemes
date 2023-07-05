@@ -189,13 +189,10 @@
                 <m e="way" k="highway" v="bridleway" zoom-min="14">
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.2" dasharray="10,12" cap="round"/>
                 </m>
-                <m e="way" k="highway" v="service" zoom-min="13">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.3"/>
-                </m>
                 <m e="way" k="highway" v="construction" zoom-min="10">
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="2" dasharray="15,5" cap="butt"/>
                 </m>
-                <m e="way" k="highway" v="residential|living_street|road">
+                <m e="way" k="highway" v="residential|living_street|road|service">
                     <m zoom-min="14">
                         <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.5"/>
                     </m>
