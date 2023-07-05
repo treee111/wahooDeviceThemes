@@ -197,7 +197,7 @@
                     <m zoom-min="14">
                         <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="1.0"/>
                     </m>
-                    <m zoom-max="13" zoom-min="10">
+                    <m zoom-max="13" zoom-min="12">
                         <line cat="bolt" stroke="#000000" width="0.8"/>
                     </m>
                 </m>
