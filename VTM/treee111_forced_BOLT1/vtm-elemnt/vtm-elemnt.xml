@@ -200,10 +200,12 @@
                 <m e="way" k="highway" v="residential|living_street|road|unclassified" zoom-min="10" zoom-max="13">
                     <line cat="bolt" stroke="#000000" width="0.5"/>
                 </m>
-                <m e="way" k="highway" v="road|unclassified" zoom-min="10" zoom-max="13">
-                    <line cat="bolt" stroke="#000000" width="2"/>
+                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="13">
+                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="2.5"/>
                 </m>
-                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="10">
+                <m e="way" k="highway" v="tertiary|tertiary_link|secondary_link|secondary" zoom-min="10" zoom-max="12">
+                    <line cat="bolt" stroke="#000000" width="1"/>
+                </m>
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
                 </m>
                 <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9">
