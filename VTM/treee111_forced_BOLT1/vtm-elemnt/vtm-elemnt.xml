@@ -208,14 +208,8 @@
                 </m>
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
                 </m>
-                <m e="way" k="highway" v="primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9">
+                <m e="way" k="highway" v="motorway|primary_link|trunk_link|motorway_link|primary|trunk" zoom-min="9">
                     <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="3.5"/>
-                </m>
-                <m e="way" k="highway" v="motorway" zoom-min="12">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="4"/>
-                </m>
-                <m e="way" k="highway" v="motorway" zoom-min="8" zoom-max="11">
-                    <line cat="bolt" outline="highway-bolt" stroke="#FFFFFF" width="4"/>
                 </m>
                 <m e="way" k="wandrer" v="untraveled" zoom-min="14">
                     <line cat="bolt" outline="highway-bolt" stroke="#000000" width="1.5" dasharray="10,12"/>
